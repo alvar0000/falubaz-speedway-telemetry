@@ -7,6 +7,9 @@ results/
 *.mkv
 *.webm
 
+# Tymczasowe plansze używane przy wyborze zrzutów do README
+assets/_review/
+
 # Środowiska oraz cache Pythona
 .venv/
 venv/

@@ -15,6 +15,16 @@ Projekt w Pythonie i OpenCV do automatycznej analizy startów żużlowych. Proje
 - generuje film wynikowy z linią detekcji i panelem telemetrycznym;
 - oferuje powiększony widok oraz interpolację czasu reakcji pomiędzy klatkami.
 
+## Przykładowy wynik
+
+Poniżej klatki z wygenerowanej telemetrii. Algorytm zaznacza obszar taśmy i ROI przy zawodnikach, a po starcie wyświetla wykrytą linię taśmy oraz obliczone czasy reakcji.
+
+| Przed startem | Po detekcji startu |
+| --- | --- |
+| ![Widok telemetryczny przed startem](assets/telemetry_waiting.png) | ![Wynik analizy z czasami reakcji](assets/telemetry_detection.png) |
+
+> Nagrania wideo pozostają poza repozytorium, aby nie przekraczać limitów rozmiaru GitHuba. W przyszłości pełne demo można podlinkować z YouTube lub Google Drive.
+
 ## Jak to działa
 
 1. Użytkownik zaznacza ROI, czyli obszar zawierający taśmę oraz małe obszary przy kołach zawodników.
@@ -102,4 +112,3 @@ Film wynikowy trafia do katalogu `results/`. Podgląd można przerwać klawiszem
 - OpenCV
 - NumPy
 - przetwarzanie wideo i klasyczne metody computer vision
-
