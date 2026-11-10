@@ -1,0 +1,23 @@
+# Materiały wideo: nagrania źródłowe i wyniki analizy
+source/
+results/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Środowiska oraz cache Pythona
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Pliki środowiska i edytorów
+.env
+.vscode/
+.idea/
+
+# System operacyjny
+.DS_Store
+Thumbs.db
